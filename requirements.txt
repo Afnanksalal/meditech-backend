@@ -1,0 +1,22 @@
+Flask>=2.0
+Flask-SocketIO>=5.0
+Flask-Cors>=3.0
+mysql-connector-python>=8.0
+python-dotenv>=0.19
+torch>=1.9 # Adjust based on your CUDA version if using GPU
+transformers>=4.10
+librosa>=0.8
+numpy>=1.20
+aiohttp>=3.7
+werkzeug>=2.0
+python-engineio>=4.3.0 # Important for SocketIO
+python-socketio>=5.4.0  # Important for SocketIO
+scikit-learn>=1.0 # Or the version used to save your models
+soundfile>=0.10
+pytesseract>=0.3.8 # For OCR
+Pillow>=8.4 # Image handling for pytesseract
+gunicorn>=20.1 # Recommended WSGI server for production
+langdetect
+# eventlet # Optional: Only if using gunicorn --worker-class eventlet
+# gevent # Optional: Only if using gunicorn --worker-class gevent
+# gevent-websocket # Optional: Only if using gunicorn --worker-class geventwebsocket...
